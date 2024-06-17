@@ -6,7 +6,7 @@ import '../App.css'
 const MovieList = () => {
   return (
     <div>
-      <h1>Movie Review Site</h1>
+      <h1>영화 리뷰 웹 사이트</h1>
       <div className="movie-list">
         {movies.map(movie => (
           <Movie key={movie.id} movie={movie} />

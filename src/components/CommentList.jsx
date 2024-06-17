@@ -15,7 +15,7 @@ const CommentList = () => {
 
   return (
     <div className="movie-details">
-      <div className="movie">
+      <div className="movie-d">
           <img src={selectedMovie.posterUrl} alt={`${selectedMovie.title} Poster`} />
           <h2>{selectedMovie.title}</h2>
           <p><strong>개봉일:</strong> {selectedMovie.releaseDate}</p>

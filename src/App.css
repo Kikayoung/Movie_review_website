@@ -208,9 +208,13 @@ h1 {
   background-color: #0056b3;
 }
 
+.movie-d{
+  padding-left: 80%;
+}
 
 .comments{
   margin: 20px;
+  width: 500px;
 }
 
 .comments-input {
